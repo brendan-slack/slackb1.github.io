@@ -1,0 +1,152 @@
+/* Custom Styles */
+
+/* COLORS 
+-- GUNMETAL #2d3142
+-- SILVER   #bfc0c0 
+-- WHITE    #fcfcfc
+-- ORANGE   #ef8354
+-- BLUE     #4f5d75
+*/
+
+body { background: #fcfcfc; }
+
+footer { 
+    background: #2d3142;
+    color: #eee;    
+}
+
+section {
+    padding: 25px 0px;
+}
+
+a {
+    color: #ef8354;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #2d3142;
+}
+
+.button:hover { border: 1px solid #333; transform: scale(1.05); }
+
+.reverse {
+    flex-direction: column-reverse;
+}
+.col { margin-bottom: 15px; }
+
+#welcome-section {
+    background: #2d3142;
+    color: #fcfcfc;
+}
+
+#my-image {
+    text-align: center;
+}
+
+#skills-section {
+    background: #4f5d75;
+    color: white;
+}
+
+#skills-section .col {
+    padding: 0px 15px;
+}
+#skills-section i {
+    color: #ef8354;
+}
+
+#my-work-section .col > img {
+    max-width: 100%;
+    height: auto;
+}
+
+#my-work-section .button {
+    background: #4f5d75;
+    color: #fcfcfc;
+    font-size: 14px;
+}
+
+#my-work-section .row {
+    padding: 35px 0px; 
+}
+
+#about-me-section { background: #eee; }
+
+#about-me-section p {
+    margin-bottom: 10px;
+}
+
+#work-together-section {
+    background: linear-gradient(to bottom right, #bfc0c0 , #2d3142);
+    color: white;
+}
+
+#work-together-section .button {
+    background: #ef8354;
+    color: #fcfcfc;
+    border: 2px solid #2d3142;
+}
+
+#connect-buttons i {
+    margin-right: 10px;
+}
+
+#connect-buttons i:last-of-type {
+    margin-right: 0px;
+}
+
+.connect-link { 
+    display: inline-block;
+    height: 100%;
+    width: 60px;
+    overflow: hidden;
+    padding: 0px 3px;
+}
+.connect-link span { 
+    opacity: 0;
+    transition: all 0.3s ease-in-out;
+}
+
+.connect-link i {
+    transition: all 0.3s ease-in-out;
+    opacity: 1.0;
+}
+
+.connect-link a {
+    text-decoration: none;
+    color: white;
+}
+
+.connect-link:hover i {
+    opacity: 0.5;
+    color: #ef8354;
+}
+
+.connect-link:hover span {
+    opacity: 1.0;
+    color: #ef8354;
+}
+
+.project-button {
+    display: block;
+    max-width: 275px;
+    margin: auto;
+}
+
+/* MEDIA QUERIES */
+@media (min-width: 768px) {
+    #my-image {
+        text-align: left;
+    }
+
+    .col {
+        margin-bottom: 0px;
+    }
+
+    /* ignore this rule on desktop */
+    .reverse {
+        flex-direction: row;
+    }
+
+}
