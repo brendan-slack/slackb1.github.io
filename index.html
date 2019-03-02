@@ -16,8 +16,8 @@
 
     <!-- CSS -->
     <link rel="stylesheet" href="css/normalize.css">
-    <link rel="stylesheet" href="css/framework.css">
-    <link rel="stylesheet" href="css/style.css">
+    <!-- <link rel="stylesheet" href="css/framework.css">
+    <link rel="stylesheet" href="css/style.css"> -->
 
     <!-- Font Awesome Icons -->
     <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN"
@@ -34,222 +34,70 @@
 	<meta name="msapplication-config" content="favicons/browserconfig.xml">
 	<meta name="theme-color" content="#323443">
 
+	<style>
+		
+		body {
+			background-color: #252525;
+			color: #CCCCCC;
+			padding: 0px 15px; 
+			text-align: center;
+			height: 100vh;
+			font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+			line-height: 1.35;
+		}
+
+		div.content {
+			display: flex;
+			flex-direction: column;
+			align-items: center;
+			justify-content: center;
+			height: 100%;
+		}
+
+
+		a {
+			padding: 15px 25px; 
+			text-align: center;
+			font-weight: 500;
+			display: inline-block;
+			margin: 5px auto 25px auto;
+			width: 60%;
+			max-width: 250px;
+			background-color: #444;
+			border-radius: 8px;
+			color: #DEDEDE;
+			text-decoration: none;
+			letter-spacing: 2px;
+		}
+
+	</style>
+
 </head>
 
 <body>
-    <section id="welcome-section">
-        <div class="container">
-            <div class="row">
-                <div class="col _75 text-center">
-                    <h1>Hi. I'm
-                        <span style="color:#ef8354;">Brendan</span>
-                    </h1>
-                    <h4>Full Stack Web Developer</h4>
-                </div>
-                <div class="col _25" id="my-image">
-                    <img src="images/me.jpg" alt="image of Brendan" width="150" height="150" class="circle">
-                </div>
-            </div>
-        </div>
-    </section>
-    <section id="skills-section">
-        <div class="container">
-            <h1 class="text-center">What I Do</h1>
-            <br>
-            <div class="row" style="align-items: flex-start;">
-                <div class="col text-center">
-                    <i class="fa fa-4x fa-code" aria-hidden="true"></i>
-                    <h5>Client Side</h5>
-                    <p>
-                        Front end development in HTML, CSS, and JavaScript. 
-                        I enjoy custom development but build web solutions 
-                        with libraries like jQuery, Bootstrap, and more. 
-                    </p>
-                </div>
-                <div class="col text-center">
-                    <i class="fa fa-4x fa-server" aria-hidden="true"></i>
-                    <h5>Server Side</h5>
-                    <p>
-                        Mostly in PHP, but I'm constantly learning. 
-                        I've developed custom Content Management Systems in the past along 
-                        with APIs that work directly with mobile applications.
-                    </p>
-                </div>
-                <div class="col text-center">
-                    <i class="fa fa-4x fa-newspaper-o" aria-hidden="true"></i>
-                    <h5>UX/UI</h5>
-                    <p>
-                        One of the main reasons I began web development is so I could build content 
-                        that users interact with directly. Building user friendly and well designed
-                        solutions is my passion. 
-                    </p>
-                </div>
-            </div>
-        </div>
-    </section>
-    <section id="my-work-section">
-        <div class="container">
-            <h1 class="text-center">My Work</h1>
-            <br>
-            <div class="row">
-                <div class="col">
-                    <h5>Association of University Interior Designers (AUID)</h5>
-                    <h6>
-                        <i>Complete redesign done in WordPress</i>
-                    </h6>
-                    <p>
-                        The Association of University Interior Designers is a collegiate organization
-                        comprised of interior design professionals. With 100+ memberships across 29 states, 
-                        AUID provides a network and resource to engage in the sharing of information, discussion
-                        of issues, solution of problems, and the management of interior design at institutions of higher education.
-                    </p>
-                    <a href="http://www.auid.org" class="button corners-round project-button" target="_blank">Visit AUID</a>
-                </div>
-                <div class="col text-center">
-                    <img src="images/auid-showcase.png" alt="">
-                </div>
-            </div>
 
-            <hr>
+	<div class="content">
+		<h1 style="color:#FEFEFE;">Hi, I'm Brendan.</h1>
+		<h4 style="color:#FEFEFE;">I build websites and make dad jokes.</h4>
 
-            <div class="row reverse">
-                <div class="col text-center">
-                    <img src="images/spires-showcase.png" alt="">
-                </div>
-                <div class="col">
-                    <h5>City of Spires Historical Museum</h5>
-                    <h6>
-                        <i>Custom design/development built with custom CSS framework</i>
-                    </h6>
-                    <p>
-                        The City of Spires Historical Museum, originally constructed in 1848, is the oldest 
-                        standing structure built as a house of worship in Aurora, Indiana.
-                        The museum's rich history is preserved and maintained today by the City of Spires 
-                        Historical Museum and Foundation.
-                    </p>
-                    <a href="http://www.cityofspires.org" class="button corners-round project-button" target="_blank">Visit City of Spires</a>
-                </div>
-            </div>
+		<p style="max-width: 400px;">A <strong>re</strong>-redesign of this site is under construction, in the meantime you can catch up with me on these sites....</p>
 
-            <hr>
+		<br />
 
-            <div class="row">
-                <div class="col">
-                    <h5>Lodige Process Technology</h5>
-                    <h6>
-                        <i>Completely new web prescence developed with WordPress</i>
-                    </h6>
-                    <p>
-                        Located in Florence, KY, Lodige Process Technology is the US subsidiary of 
-                        Lödige Process Technology (located in Paderborn, Gemany). 
-                        Their team has over 125 years of technical experience with Ploughshare® Processing 
-                        Technology and are readily available to provide solutions that meet industry needs.
-                        
-                    </p>
-                    <a href="http://www.lodige-pt.com" class="button corners-round project-button" target="_blank">Visit Lodige</a>
-                </div>
-                <div class="col text-center">
-                    <img src="images/lodige-showcase.png" alt="">
-                </div>
-            </div>
+		<a href="https://twitter.com/brendan_slack" style="background-color:#30A0ED;">Twitter</a>
+		<a href="https://github.com/slackb1">Github</a>
 
-            <hr>
+		<p>OR</p>
 
-            <!-- <div class="row reverse">
-                <div class="col text-center">
-                    <img src="images/tavern-showcase.png" alt="">
-                </div>
-                <div class="col">
-                    <h5>Billie's Skyline Tavern</h5>
-                    <h6>
-                        <i>Original custom design, new web presence, and custom CMS</i>
-                    </h6>
-                    <p>
-                        Billie's Skyline Tavern is a third generation, family-owned bar established in 1939 by Cliff Guddorf.
-                        Weekly drink and food specials bring NKU students and Highland Heights locals all year-round.
-                    </p>
-                    <a href="http://www.brendanslack.com/tavern" class="button corners-round" target="_blank">Visit Skyline Tavern</a>
-                </div>
-            </div> -->
-
-            <br>
-            <br>
-            <h4 class="text-center">Want to see more?
-                <a href="mailto:brendan@brendanslack.com" target="_top" style="text-decoration: underline; color: #ef8354;">Email me</a>
-            </h4>
-        </div>
-    </section>
-
-    <section id="about-me-section">
-        <h1 class="text-center">About Me</h1>
-        <div class="container">
-            <div class="row">
-                <div class="col text-center">
-                    <i class="fa fa-terminal fa-4x" style="color: #ef8354;" aria-hidden="true"></i>
-                    <h4 style="margin-bottom: 0px;">Employment</h4>
-                </div>
-                <div class="col">
-                    <p>
-                        I'm currently a Full Stack Web Developer at <a href="https://www.deanhouston.com/" target="_blank">DeanHouston</a> in Cincinnati, OH.
-                    </p>
-                </div>
-            </div>
-            <br>
-            <hr>
-            <div class="row">
-                <div class="col text-center">
-                    <i class="fa fa-graduation-cap fa-4x" style="color: #ef8354;" aria-hidden="true"></i>
-                    <h4 style="margin-bottom: 0px;">Education</h4>
-                </div>
-                <div class="col">
-                    <p>
-                        In May of 2018 I graduated from <a href="https://www.nku.edu/" target="_blank">Northern Kentucky University</a> with my Bachelor of Science in Computer Information Technology with a minor in Computer Science.
-                    </p>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <section id="work-together-section">
-        <div class="container text-center">
-            <h1>Let's Work Together</h1>
-            <h6>Have a web site or web project you'd like to discuss? Feel free to contact me.</h6>
-            <hr>
-            <div class="row">
-                <div class="col" id="connect-buttons">
-                    <div class="connect-link" id="linked-in">
-                        <a href="https://www.linkedin.com/in/brendanslack/" target="_blank">
-                            <i class="fa fa-linkedin-square fa-4x" aria-hidden="true"></i>
-                            <span>LinkedIn</span>
-                        </a>
-                    </div>
-                    <div class="connect-link" id="github">
-                        <a href="https://github.com/slackb1" target="_blank">
-                            <i class="fa fa-github fa-4x" aria-hidden="true"></i>
-                            <span>GitHub</span>
-                        </a>
-                    </div>
-                    <div class="connect-link" id="Email">
-                        <a href="mailto:brendan@brendanslack.com" target="_top">
-                            <i class="fa fa-envelope fa-4x" aria-hidden="true"></i>
-                            <span>Email</span>
-                        </a>
-                    </div>
-                    <div class="connect-link" id="Resume">
-                        <a href="files/Slack-Resume.pdf" target="_blank">
-                            <i class="fa fa-file-code-o fa-4x" aria-hidden="true"></i>
-                            <span>Resume</span>
-                        </a>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <footer>
-        <small>Copyright &copy; 2018 Brendan Slack</small>
-    </footer>
-
+		<p>
+			<span style="font-family: serif;">THE OLD FASHIONED WAY - EMAIL</span>
+			<br /><br />
+			<code>
+			me[at]brendanslack.dev
+			</code>
+			
+		</p>
+	</div>
 </body>
 
 </html>
